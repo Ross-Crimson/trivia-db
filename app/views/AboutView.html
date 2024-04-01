@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <section>
+    <div class="row my-4">
+      <h5 class="text-center p-3">Categories</h5>
+      <div class="col-12">
+        <div class="d-flex justify-content-evenly">
+          <button
+            onclick="app.QuestionsController.ImportQuestions('https://opentdb.com/api.php?amount=20&category=15&difficulty=medium&type=multiple')"
+            class="btn btn-large btn-primary">Video Games</button>
+          <button
+            onclick="app.QuestionsController.ImportQuestions('https://opentdb.com/api.php?amount=20&category=31&difficulty=medium&type=multiple')"
+            class="btn btn-large btn-primary">Anime</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="question-space"></section>
+</div>
